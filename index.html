@@ -10,7 +10,7 @@
 
     <meta property="og:title" content="GHALI POWER" />
     <meta property="og:description" content="GHALI POWER est une entreprise spécialisée dans l'électricité, la plomberie, la climatisation, et divers travaux de construction. Nous sommes animés par une véritable passion pour notre métier et dédiés à offrir des solutions sur mesure à nos clients partout au Maroc." />
-    <meta property="og:image" content="assets/images/logo/logo-02.jpeg" />
+    <meta property="og:image" content="" id="dynamic-og-image" />
     <meta property="og:url" content="" id="dynamic-og-url" />
 
     <!-- fontawesome css -->
@@ -630,6 +630,8 @@
 <script>
     document.getElementById('copyrightYear').textContent = new Date().getFullYear();
     document.getElementById('dynamic-og-url').setAttribute('content', window.location.href);
+    const imageUrl = window.location.origin + "/assets/images/logo/logo-02.jpeg";
+    document.getElementById('dynamic-og-image').setAttribute('content', imageUrl);
 </script>
 
 </body>
