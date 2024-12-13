@@ -70,7 +70,7 @@
             });
           });
             $(document).ready(function () {
-            var swiper = new Swiper(".mySwiper-banner-cleaning", {
+            var swiper = new Swiper(".mySwiper-banner-company", {
               spaceBetween: 0,
               loop: true,
               pagination: {
