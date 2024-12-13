@@ -21263,4 +21263,24 @@ form.appoinment-form .input-half-wrapper .single-input input {
 .card-title {
   margin-top: 20px;
 }
+.pinterest-grid {
+  column-count: 3; /* Number of columns */
+  column-gap: 1rem; /* Space between columns */
+}
+.pinterest-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.card {
+  box-shadow: 0px 10px 30px rgba(106, 106, 106, 0.2);
+  margin: 20px;
+}
+.spl-title {
+  display: none;
+}
 /*# sourceMappingURL=../maps/style.css.map */
