@@ -21052,7 +21052,6 @@ form.appoinment-form .input-half-wrapper .single-input input {
 .progress-wrap::after {
   position: absolute;
   font-family: "unicons";
-  content: "\e84b";
   text-align: center;
   line-height: 46px;
   font-size: 24px;
@@ -21074,14 +21073,12 @@ form.appoinment-form .input-half-wrapper .single-input input {
 
 .progress-wrap:hover::after {
   opacity: 1;
-  content: "\e84b";
   border: 2px solid var(--color-primary);
 }
 
 .progress-wrap::before {
   position: absolute;
   font-family: "unicons";
-  content: "\e84b";
   text-align: center;
   line-height: 46px;
   font-size: 24px;
